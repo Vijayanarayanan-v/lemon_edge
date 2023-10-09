@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="app\" />
+    <None Remove="app\chess\" />
+    <None Remove="app\constant\" />
+    <None Remove="app\customException\" />
+    <None Remove="app\entity\" />
+    <None Remove="app\keypad\" />
+    <None Remove="app\rule\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="app\chess\" />
+    <Folder Include="app\constant\" />
+    <Folder Include="app\customException\" />
+    <Folder Include="app\entity\" />
+    <Folder Include="app\keypad\" />
+    <Folder Include="app\rule\" />
+  </ItemGroup>
+</Project>
